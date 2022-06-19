@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@color/white"
+        android:hint="@string/place_holder"
+        android:inputType="number"
+        android:minWidth="100dp"
+        android:padding="10dp"
+        android:textColorHint="@color/background_color"
+        android:textSize="30sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/button_background"
+        android:text="@string/button_text"
+        android:layout_margin="30dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:maxWidth="300dp"
+        android:textSize="20sp"
+        android:background="@color/textView_background"
+        android:text="@string/textView_initial_string"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
